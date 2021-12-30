@@ -116,8 +116,6 @@ class _ChatPictureViewState extends State<ChatPictureView> {
         height: _trulyHeight,
         width: _trulyWidth,
         fit: BoxFit.fitWidth,
-        cacheWidth: _trulyWidth.toInt(),
-        cacheHeight: _trulyHeight.toInt(),
       );
 
   Widget _pathView({required String path}) => Stack(

@@ -34,8 +34,6 @@ class ChatQuoteView extends StatelessWidget {
               width: 42.h,
               height: 42.h,
               fit: BoxFit.fill,
-              cacheHeight: 42.h.toInt(),
-              cacheWidth: 42.h.toInt(),
             );
           } else if (url2 != null && url2.isNotEmpty) {
             child = IconUtil.networkImage(
@@ -43,8 +41,6 @@ class ChatQuoteView extends StatelessWidget {
               width: 42.h,
               height: 42.h,
               fit: BoxFit.fill,
-              cacheHeight: 42.h.toInt(),
-              cacheWidth: 42.h.toInt(),
             );
           } else if (path != null && path.isNotEmpty) {
             child = Image(
@@ -64,8 +60,6 @@ class ChatQuoteView extends StatelessWidget {
                 width: 42.h,
                 height: 42.h,
                 fit: BoxFit.fill,
-                cacheHeight: 42.h.toInt(),
-                cacheWidth: 42.h.toInt(),
               ),
             );
           } else if (path != null && path.isNotEmpty) {
@@ -91,8 +85,6 @@ class ChatQuoteView extends StatelessWidget {
               width: 42.h,
               height: 42.h,
               fit: BoxFit.fill,
-              cacheHeight: 42.h.toInt(),
-              cacheWidth: 42.h.toInt(),
             );
           }
         } else if (quoteMessage.contentType == MessageType.file) {}

@@ -1,4 +1,3 @@
-import 'package:animate_do/animate_do.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -16,7 +15,8 @@ class IconUtil {
         package: 'flutter_openim_widget',
       );
 
-  static Widget svg(String name, {
+  static Widget svg(
+    String name, {
     double? width,
     double? height,
     BoxFit? fit,
@@ -31,7 +31,8 @@ class IconUtil {
     );
   }
 
-  static Widget assetImage(String res, {
+  static Widget assetImage(
+    String res, {
     double? width,
     double? height,
     BoxFit? fit,
@@ -43,177 +44,183 @@ class IconUtil {
       height: height,
       fit: fit,
       color: color,
-      cacheHeight: height?.toInt(),
+      // cacheHeight: height?.toInt(),
       // cacheWidth: width?.toInt(),
       package: 'flutter_openim_widget',
     );
   }
 
   static Widget back({Color color = const Color(0xFF333333)}) => assetImage(
-    'ic_back',
-    width: 12.w,
-    height: 20.h,
-    color: color,
-  );
+        'ic_back',
+        width: 12.w,
+        height: 20.h,
+        color: color,
+      );
 
   static Widget add() => assetImage(
-    "ic_add",
-    width: 24.h,
-    height: 24.h,
-    color: Color(0xFF333333),
-  );
+        "ic_add",
+        width: 24.h,
+        height: 24.h,
+        color: Color(0xFF333333),
+      );
 
   static Widget search() => assetImage(
-    'ic_search',
-    width: 24.h,
-    height: 24.h,
-    color: Color(0xFF333333),
-  );
+        'ic_search',
+        width: 24.h,
+        height: 24.h,
+        color: Color(0xFF333333),
+      );
 
   static Widget play() => assetImage(
-    'ic_video_play',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_video_play',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget sendFailed() => assetImage(
-    'ic_send_failed',
-    width: 16.h,
-    height: 16.h,
-  );
+        'ic_send_failed',
+        width: 16.h,
+        height: 16.h,
+      );
 
   static Widget speak() => svg(
-    'ic_speak',
-    width: 26.h,
-    height: 26.h,
-  );
+        'ic_speak',
+        width: 26.h,
+        height: 26.h,
+      );
 
   static Widget tools() => svg(
-    'ic_tools',
-    width: 26.h,
-    height: 26.h,
-  );
+        'ic_tools',
+        width: 26.h,
+        height: 26.h,
+      );
 
   static Widget emoji() => svg(
-    'ic_emoji',
-    width: 26.h,
-    height: 26.h,
-  );
+        'ic_emoji',
+        width: 26.h,
+        height: 26.h,
+      );
 
   static Widget keyboard() => svg(
-    'ic_keyboard',
-    width: 26.h,
-    height: 26.h,
-  );
+        'ic_keyboard',
+        width: 26.h,
+        height: 26.h,
+      );
 
   static Widget toolsAlbum() => assetImage(
-    'ic_tools_album',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_album',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsCamera() => assetImage(
-    'ic_tools_camera',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_camera',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsCarte() => assetImage(
-    'ic_tools_carte',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_carte',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsFile() => assetImage(
-    'ic_tools_file',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_file',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsLocation() => assetImage(
-    'ic_tools_location',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_location',
+        width: 48.h,
+        height: 48.h,
+      );
+
+  static Widget toolsRedMoney() => assetImage(
+        'ic_tools_redMoney',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsVideoCall() => assetImage(
-    'ic_tools_video_call',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_video_call',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget toolsVoiceInput() => assetImage(
-    'ic_tools_voice_input',
-    width: 48.h,
-    height: 48.h,
-  );
+        'ic_tools_voice_input',
+        width: 48.h,
+        height: 48.h,
+      );
 
   static Widget menuCopy() => assetImage(
-    'ic_menu_copy',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_copy',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuDel() => assetImage(
-    'ic_menu_del',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_del',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuForward() => assetImage(
-    'ic_menu_forward',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_forward',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuMultiChoice() => assetImage(
-    'ic_menu_multichoice',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_multichoice',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuReply() => assetImage(
-    'ic_menu_reply',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_reply',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuRevoke() => assetImage(
-    'ic_menu_revoke',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_revoke',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuDownload() => assetImage(
-    'ic_menu_download',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_download',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget menuTranslation() => assetImage(
-    'ic_menu_translation',
-    width: 18.w,
-    height: 18.h,
-  );
+        'ic_menu_translation',
+        width: 18.w,
+        height: 18.h,
+      );
 
   static Widget file() => assetImage(
-    'ic_file',
-    width: 22.w,
-    height: 28.h,
-  );
+        'ic_file',
+        width: 22.w,
+        height: 28.h,
+      );
 
   static Widget delQuote() => assetImage(
-    'ic_del_quote',
-    width: 14.w,
-    height: 15.h,
-  );
+        'ic_del_quote',
+        width: 14.w,
+        height: 15.h,
+      );
 
   static Widget voiceInputNor() => assetImage(
-    'ic_voice_input_nor',
-    width: 88.h,
-    height: 88.h,
-    fit: BoxFit.cover,
-  );
+        'ic_voice_input_nor',
+        width: 88.h,
+        height: 88.h,
+        fit: BoxFit.cover,
+      );
 
   static Widget error({
     double? width,
@@ -231,39 +238,32 @@ class IconUtil {
         height: 20.h,
       );
 
-  /*static Widget networkImage({
+  static Widget lowMemoryNetworkImage({
     required String url,
     double? width,
     double? height,
     BoxFit? fit,
-    int? memCacheHeight,
-    int? memCacheWidth,
-    PlaceholderWidgetBuilder? placeholder,
-    ProgressIndicatorBuilder? progressIndicatorBuilder,
-    LoadingErrorWidgetBuilder? errorWidget,
+    bool loadProgress = true,
   }) =>
-      CachedNetworkImage(
-        imageUrl: url,
+      networkImage(
+        url: url,
         width: width,
         height: height,
         fit: fit,
-        memCacheHeight: memCacheHeight,
-        memCacheWidth: memCacheWidth,
-        placeholder: placeholder,
-        progressIndicatorBuilder: progressIndicatorBuilder,
-        errorWidget: errorWidget,
-        // filterQuality: FilterQuality.medium,
-        // cacheManager: CustomCacheManager.instance,
-      );*/
+        cacheWidth: width?.toInt(),
+        cacheHeight: height?.toInt(),
+        loadProgress: loadProgress,
+        clearMemoryCacheWhenDispose: true,
+      );
 
   static Widget networkImage({
     required String url,
     double? width,
     double? height,
-    BoxFit? fit,
-    int? cacheHeight,
     int? cacheWidth,
-    bool isAvatar = false,
+    int? cacheHeight,
+    BoxFit? fit,
+    bool loadProgress = true,
     bool clearMemoryCacheWhenDispose = false,
   }) =>
       ExtendedImage.network(
@@ -272,7 +272,7 @@ class IconUtil {
         height: height,
         fit: fit,
         cache: true,
-        cacheWidth: cacheWidth,
+        cacheWidth: cacheWidth ?? (1.sw * .75).toInt(),
         cacheHeight: cacheHeight,
         clearMemoryCacheWhenDispose: clearMemoryCacheWhenDispose,
         loadStateChanged: (ExtendedImageState state) {
@@ -286,17 +286,17 @@ class IconUtil {
                             loadingProgress.expectedTotalBytes!
                         : null;
                 // CupertinoActivityIndicator()
-                return isAvatar
-                    ? Container()
-                    : Center(
-                        child: Container(
-                          width: 20.0,
-                          height: 20.0,
+                return loadProgress
+                    ? Container(
+                        width: 20.0,
+                        height: 20.0,
+                        child: Center(
                           child: CircularProgressIndicator(
                             value: progress,
                           ),
                         ),
-                      );
+                      )
+                    : Container();
               }
             case LoadState.completed:
               {
@@ -304,15 +304,16 @@ class IconUtil {
                 ///please return null or state.completedWidget
                 //return null;
                 //return state.completedWidget;
-                return FadeIn(
-                  // duration: const Duration(milliseconds: 100),
-                  child: ExtendedRawImage(
-                    image: state.extendedImageInfo?.image,
-                    width: width,
-                    height: height,
-                    fit: fit,
-                  ),
-                );
+                return state.completedWidget;
+                // return FadeIn(
+                //   // duration: const Duration(milliseconds: 100),
+                //   child: ExtendedRawImage(
+                //     image: state.extendedImageInfo?.image,
+                //     width: width,
+                //     height: height,
+                //     fit: fit,
+                //   ),
+                // );
               }
             case LoadState.failed:
               //remove memory cached
@@ -349,4 +350,30 @@ class IconUtil {
             ? (context, Object, stackTrace) => errorWidget
             : null,
       );*/
+
+/*static Widget networkImage({
+    required String url,
+    double? width,
+    double? height,
+    BoxFit? fit,
+    int? memCacheHeight,
+    int? memCacheWidth,
+    PlaceholderWidgetBuilder? placeholder,
+    ProgressIndicatorBuilder? progressIndicatorBuilder,
+    LoadingErrorWidgetBuilder? errorWidget,
+  }) =>
+      CachedNetworkImage(
+        imageUrl: url,
+        width: width,
+        height: height,
+        fit: fit,
+        memCacheHeight: memCacheHeight,
+        memCacheWidth: memCacheWidth,
+        placeholder: placeholder,
+        progressIndicatorBuilder: progressIndicatorBuilder,
+        errorWidget: errorWidget,
+        // filterQuality: FilterQuality.medium,
+        // cacheManager: CustomCacheManager.instance,
+      );*/
+
 }

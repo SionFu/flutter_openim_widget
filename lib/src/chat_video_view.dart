@@ -92,8 +92,6 @@ class _ChatVideoViewState extends State<ChatVideoView> {
           width: _trulyWidth,
           height: _trulyHeight,
           fit: BoxFit.fitWidth,
-          cacheHeight: _trulyHeight.toInt(),
-          cacheWidth: _trulyWidth.toInt(),
         );
       }
     } else {
@@ -114,8 +112,6 @@ class _ChatVideoViewState extends State<ChatVideoView> {
             width: _trulyWidth,
             height: _trulyHeight,
             fit: BoxFit.fitWidth,
-            cacheHeight: _trulyHeight.toInt(),
-            cacheWidth: _trulyWidth.toInt(),
           );
         }
       }

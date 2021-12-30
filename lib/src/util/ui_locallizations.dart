@@ -22,6 +22,7 @@ class UILocalizations {
       "video": "Video",
       "voice": "Voice",
       "location": "Location",
+      "redMoney": "Red envelope",
       "file": "File",
       "carte": "Contact Card",
       "voiceInput": "Voice Input",
@@ -63,6 +64,7 @@ class UILocalizations {
       "video": "视频",
       "voice": "语音",
       "location": "位置",
+      "redMoney": "红包",
       "file": "文件",
       "carte": "名片",
       "voiceInput": "语音输入",
@@ -115,6 +117,8 @@ class UILocalizations {
   static String get voice => _value(key: 'voice');
 
   static String get location => _value(key: 'location');
+
+  static String get redMoney => _value(key: 'redMoney');
 
   static String get file => _value(key: 'file');
 
